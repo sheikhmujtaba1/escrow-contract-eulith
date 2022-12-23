@@ -1,3 +1,3 @@
-Why are we not using Solidity? From my
-research Solidity seems to have more documentation
-and resources to deploy contracts.
+Directory Structure
+
+Contracts are placed in the contracts directory and CLI is present within src
