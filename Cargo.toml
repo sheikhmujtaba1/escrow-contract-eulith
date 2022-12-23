@@ -7,5 +7,4 @@ edition = "2021"
 
 [dependencies]
 web3 = "0.6"
-ethabi = "0.9"
 clap = "2.33"
