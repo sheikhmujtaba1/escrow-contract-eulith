@@ -27,7 +27,7 @@ pub enum EscrowContractSubcommand {
     /// Release the fund for the specified wallet address
     RequestRelease(WalletAddress),
 
-    /// Get the remaing funds in escrow for the specified wallet address
+    /// Get the remaining funds in escrow for the specified wallet address
     GetBalance(WalletAddress),
 }
 
