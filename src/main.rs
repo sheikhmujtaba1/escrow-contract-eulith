@@ -1,6 +1,8 @@
-use std::env;
+mod contract_args;
 
+use clap::Parser;
+use contract_args::EscrowContractArgs;
 fn main() {
-    let args: Vec<String> = env::args().collect();
+    let args = EscrowContractArgs::parse();
     println!("{:?}", args);
 }
